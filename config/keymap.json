@@ -7,7 +7,8 @@
     "keypad",
     "fn",
     "mod",
-    "CUSTOM 1"
+    "CUSTOM 1",
+    "Layer #5"
   ],
   "layers": [
     [
@@ -35,11 +36,17 @@
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",                            "&none",       "&none",        "&none",        "&none",           "&none",        "&none",        "&none",                  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC", "&rgb_ug RGB_TOG",                       "&bl BL_TOG",       "&none",        "&none",   "&bl BL_TOG", "&rgb_ug RGB_TOG",   "&bl BL_INC",   "&bl BL_DEC",                  "&none",  "&none",  "&none"
     ], [
-       "&trans", "&trans",         "&trans",         "&trans",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans", "&kp DELETE",
-       "&trans", "&trans",         "&trans",   "&kp UP_ARROW",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&kp LEFT_BRACE", "&kp RIGHT_BRACE", "&trans",     "&trans",
-       "&trans", "&trans", "&kp LEFT_ARROW", "&kp DOWN_ARROW", "&kp RIGHT_ARROW", "&trans",           "&trans", "&trans", "&trans",                                      "&trans", "&trans",     "&trans", "&trans", "&macro_double_arrow", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp ENTER",              "&trans",
-       "&trans", "&trans",         "&trans",         "&trans",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans",     "&trans", "&trans",              "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",    "&trans", "&macro_single_arrow",
-       "&trans", "&trans",         "&trans",         "&trans",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans",     "&trans", "&trans",              "&trans"
+       "&trans", "&trans",         "&trans",            "&trans",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans", "&kp DELETE",
+       "&trans", "&trans",         "&trans",      "&kp UP_ARROW",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&kp LEFT_BRACE", "&kp RIGHT_BRACE", "&trans",     "&trans",
+       "&trans", "&trans", "&kp LEFT_ARROW",    "&kp DOWN_ARROW", "&kp RIGHT_ARROW", "&trans",           "&trans", "&trans", "&trans",                                      "&trans", "&trans",     "&trans", "&trans", "&macro_double_arrow", "&kp LEFT_PARENTHESIS", "&kp RIGHT_PARENTHESIS", "&kp ENTER",              "&trans",
+       "&trans", "&trans",         "&trans",            "&trans",          "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans",     "&trans", "&trans",              "&trans",     "&kp LEFT_BRACKET",     "&kp RIGHT_BRACKET",    "&trans", "&macro_single_arrow",
+       "&trans", "&trans",     "&kp K_MUTE", "&kp K_VOLUME_DOWN", "&kp K_VOLUME_UP", "&trans",           "&trans", "&trans", "&trans", "&trans",         "&trans",          "&trans", "&trans",     "&trans", "&trans",              "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }

@@ -79,11 +79,21 @@
 
         layer_CUSTOM_1 {
             bindings = <
- &trans  &trans          &trans          &trans           &trans  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans  &kp DELETE
- &trans  &trans          &trans    &kp UP_ARROW           &trans  &trans            &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans      &trans
- &trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans                                   &trans  &trans      &trans  &trans  &macro_double_arrow  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER               &trans
- &trans  &trans          &trans          &trans           &trans  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans      &trans  &trans               &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &trans  &macro_single_arrow
- &trans  &trans          &trans          &trans           &trans  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans      &trans  &trans               &trans
+ &trans  &trans          &trans             &trans           &trans  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans  &kp DELETE
+ &trans  &trans          &trans       &kp UP_ARROW           &trans  &trans            &trans  &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans      &trans
+ &trans  &trans  &kp LEFT_ARROW     &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans            &trans  &trans  &trans                                   &trans  &trans      &trans  &trans  &macro_double_arrow  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp ENTER               &trans
+ &trans  &trans          &trans             &trans           &trans  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans      &trans  &trans               &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET     &trans  &macro_single_arrow
+ &trans  &trans      &kp K_MUTE  &kp K_VOLUME_DOWN  &kp K_VOLUME_UP  &trans            &trans  &trans  &trans  &trans          &trans           &trans  &trans      &trans  &trans               &trans
+            >;
+        };
+
+        layer_Layer__5 {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 
